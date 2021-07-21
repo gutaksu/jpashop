@@ -1,2 +1,4 @@
-package jpabook.jpashop.domain;public class LocalDateTime {
+package jpabook.jpashop.domain;
+
+public class LocalDateTime {
 }
