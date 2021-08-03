@@ -12,7 +12,7 @@ import java.util.List;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="dtype")
-@Getter //@Setter
+@Getter @Setter
 public abstract class Item {
     @Id @GeneratedValue
     @Column(name="item_id")
@@ -45,4 +45,14 @@ public abstract class Item {
         this.stockQuantity = restStock;
     }
 
+    /*public void setName(String name){
+
+    }
+
+    public void setPrice(int price){
+
+    }
+
+    public void setStockQuantity(int stockQuantity) {
+    }*/
 }
