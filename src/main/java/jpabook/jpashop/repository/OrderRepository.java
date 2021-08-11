@@ -102,7 +102,7 @@ public class OrderRepository {
                 isFirstCondition = false;
             }else{
                 jpql += " and";
-            } 
+            }
             jpql += "m.name like :status";
         }
 
